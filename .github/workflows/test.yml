@@ -1,0 +1,9 @@
+name: GitHub Actions TEST
+on: push
+jobs:
+  sample-action:
+    runs-on: linux-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - run: echo "🍏 This job's status is ${{ job.status }}."
