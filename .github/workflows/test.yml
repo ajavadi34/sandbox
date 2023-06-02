@@ -2,7 +2,7 @@ name: GitHub Actions TEST2
 on: push
 jobs:
   sample-action:
-    runs-on: linux-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repo code
         uses: actions/checkout@v3
