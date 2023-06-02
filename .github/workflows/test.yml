@@ -4,6 +4,6 @@ jobs:
   sample-action:
     runs-on: linux-latest
     steps:
-      - name: Check out repository code
+      - name: Check out repo code
         uses: actions/checkout@v3
       - run: echo "🍏 This job's status is ${{ job.status }}."
