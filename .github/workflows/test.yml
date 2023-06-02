@@ -1,7 +1,7 @@
 name: GitHub Actions TEST2
 on: push
 jobs:
-  sample-action-test:
+  sample-action-tests:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo code
